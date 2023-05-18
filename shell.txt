@@ -1,0 +1,2 @@
+(get-content "C:\Projects Source\divine-traveller\httpdocs\mangadu.html -Raw).Replace("<SCRIPT language=JavaScript src=`"rightmenu.js`" type=text/javascript\>`r`n`r`n                `r`n`r`n     </script>","<!--#include file =`"rightmenu.txt`-->
+"") | set-content "C:\Projects Source\divine-traveller\httpdocs\mangadu.html"

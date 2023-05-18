@@ -1,0 +1,9 @@
+<div class="header"><a href="#"><img src="img/hori-ban.jpg"  width="100%" height="300"  style="background: #8090AB; display:block;" /></a> 
+    </div>
+    <table width="100%"  bgcolor="#000066">
+  <tr>
+  
+    <td width="90%" align="right"> <font color="#FFFFFF"  ><strong><a href="author.html" > About&nbsp;  </a></strong></td>
+    <td width="10%"> <font color="#FFFFFF"  ><strong> <a href="disclaimer.html" >Disclaimer</a></strong></td>
+  </tr>
+</table>

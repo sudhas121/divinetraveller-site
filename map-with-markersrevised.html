@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+
+    .style1 {background-color:#ffffff;
+	font-weight:bold;border:1px black solid;
+	white-space:nowrap}
+	.style2 {background-color:#ffcccc;}
+      #map {
+        width: 500px;
+        height: 400px;
+      }
+
+    </style>
+
+
+    <title>Google Maps</title>
+   
+<!-- <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAPDUET0Qt7p2VcSk6JNU1sBSM5jMcmVqUpI7aqV44cW1cEECiThQYkcZUPRJn9vy_TWxWvuLoOfSFBw" type="text/javascript"></script> -->
+<!-- using key from sudhajams2007@gmail.com  https://code.google.com/apis/console/?noredirect#project:950660294314:access-->
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=AIzaSyBIDanYLEkQuME3kKf0-JXb1j03FC_4_b8" type="text/javascript"></script>
+ <script src="https://maps.googleapis.com/maps/api/js"></script> 
+  </head>
+  
+  <!-- <body onunload="GUnload()"> -->
+  
+   <script src="elabel.js" type="text/javascript"></script> 
+
+    <script type="text/javascript">
+ 
+ function initialize() {
+        var map = document.getElementById('map');
+        var mapOptions = {
+          center: new google.maps.LatLng(21.0000, 78.0000),
+          zoom: 5,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(map, mapOptions)
+      }
+	  
+	  document.write("<br>");
+      google.maps.event.addDomListener(window, 'load', initialize);
+	  
+       
+
+var temples = [];
+var temples = [['Mylapore',  13.0336, 80.2687],
+  ['Thiruvidanthai', 12.45, 80.14],
+  ['Guruvayur', 10.3500, 76.2000],
+  ['Sabarimala', 9.4375, 77.0805],
+  ['Kumbakonam', 10.9700, 79.4200]];
+//
+      // Custom icon is identical to the default icon, except that its invisible
+ //var invisibleIcon = new GIcon(G_DEFAULT_ICON, "http://www.google.com/intl/en_ALL/mapfiles/markerTransparent.png");
+ //var invisibleIcon = new GIcon(G_DEFAULT_ICON, "http://www.google.com/intl/en_ALL/mapfiles/markerTransparent.png");
+ var image = {
+    url: 'img/sight.png',
+    // This marker is 20 pixels wide by 32 pixels tall.
+    size: new google.maps.Size(20, 32),
+    // The origin for this image is 0,0.
+    origin: new google.maps.Point(0,0),
+    // The anchor for this image is the base of the flagpole at 0,32.
+    anchor: new google.maps.Point(0, 32)
+  };
+  
+  
+  
+ function createMarkeredLabel(point,html,text) {
+        // Create the Label
+		
+		document.write ("Inside create marker    " + point+html+text);
+        var contents = '<div>  <div class="style1">'+text+'<\/div><img src="img/sight.png" width=20 height=34><\/div>';
+		document.write("<br>");
+		
+		document.write("<br>");document.write("<br>");
+      var label=new ELabel(point, contents, null, new google.maps.Size(-8,4), 75, 1);
+		//var label=new ELabel(point, contents, null, null,null,null);
+		
+		document.write ("label"+label);
+		document.write("<br>");document.write("<br>");
+    // map.addOverlay(label);
+	var marker = new google.maps.Marker(label );
+	document.write ("var marker " + marker);
+	document.write("<br>");
+	  this.setMap(label)
+       document.write ("Inside create label 5.0 " + label);
+	 //
+       google.maps.event.addListener(marker, 'click', function() {
+		  
+          marker.openInfoWindowHtml(html);
+          label.setOpacity(100);
+          lastlabel = label;
+        }); 
+		//document.write ("Inside create marker  5  " + marker);
+        map.addOverlay(marker);
+      }
+
+ 
+ // document.write ("invisibleIcon " +invisibleIcon);
+   // Create an invisible GMarker
+    //var marker =new google.maps.Marker(point,invisibleIcon);
+		//
+/*
+var tempcount =0;
+
+document.write("<br>");
+document.write ("outside Length    " + temples.length);
+  
+ for (var i = 0; i < temples.length; i++) {
+	
+	 document.write ("Length 2   "  + temples.length);
+	document.write("<br>");
+    var lat = parseFloat(temples[tempcount][1]);  //convert string to float
+	var lon = parseFloat(temples[tempcount][2]);  //convert string to float
+	var point=new google.maps.LatLng(lat, lon); 
+	var name= (temples[tempcount][0]);
+	tempcount++;
+	document.write("temples " +name +"lat"+ lat + " lon"+lon+"point"+point);
+    document.write("<br>");           
+   
+   var marker = createMarkeredLabel(point,'hehe','text');
+	document.write ("marker   "  + marker);
+  var marker = new google.maps.Marker(point,image);   
+  
+    };
+	*/
+	 var point = new google.maps.LatLng(10.3500, 76.2000);
+      var marker = createMarker(point,'Some stuff to display in the<br>Third Info Window')
+      map.addOverlay(marker);
+  // A simple opaque ELabel
+      var label = new ELabel(new  google.maps.LatLng(10.3500, 76.2000), "Guruvayur", "style2");
+      map.addOverlay(label);
+ 
+function myFunction() {
+    
+    beaches.toString();
+    document.getElementById("demo").innerHTML = temples;
+}
+
+      // Reset the opacity of the label when the info window closes
+      google.maps.event.addListener(map,"infowindowclose", function() {
+        if (lastlabel) {
+          lastlabel.setOpacity(75);
+        }
+      });
+
+ </script>
+   
+<body>
+  <div id="map" </div> 
+ 
+  </body>
+
+</html>

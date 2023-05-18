@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>DHTML URLs 2</title>
+<script language="javascript">
+<!--
+   /* store the current window location */ 
+   var strURL = window.location;
+   var strFrame;
+   
+   /* function used when HREF is clicked */ 
+   function clickHref()
+   {
+      /* check if an HREF was clicked */ 
+      if (window.event.srcElement.tagName == "A")
+      {
+        /* open a new window with the URL */ 
+         window.open(strURL,"","width=400,height=400");
+      }
+   }
+
+   /* function used when HREF is hovered */ 
+   function overHref()
+   {
+      /* check if an HREF was clicked */ 
+      if (window.event.srcElement.tagName == "A")
+      {
+        /* store the HREF's URL */ 
+         strURL = window.event.srcElement.href;
+        /* store the HREF's target frame */ 
+         strFrame = window.event.srcElement.target;
+        /* set the HREF's URL to the current page */ 
+         window.event.srcElement.href = window.location;
+        /* set the HREF's URL to the same frame */ 
+         window.event.srcElement.target = "_self";
+      }
+   }
+
+   /* function used when HREF is no longer hovered */ 
+   function outHref()
+   {
+      /* check if an HREF was clicked */ 
+      if (window.event.srcElement.tagName == "A")
+      {
+        /* restore the HREF's original URL */ 
+         window.event.srcElement.href = strURL;
+        /* restore the HREF's original target frame */ 
+         window.event.srcElement.target = strFrame;
+      }
+   }
+//-->
+</script>
+</head>
+<body onClick="clickHref();" onMouseOver="overHref();" onMouseOut="outHref();">
+According to the Legend Nandi achieved divine  status in various ways. These include his recognition as another form of Shiva from whom, in some cases, his representations are sometimes almost impossible to differentiate. In the form of rishi, Nandi can be seen at the entrance to Shiva temples. But, he is seen in the form of a bull more frequently. According to the legends, it is said that Prajapati Brahma gave Nandi bull to Shiva or he took the form of a bull to represent Dharma and stood for the salvation of departed souls on the other side of death. The association of Lord Shiva with Nandi bull can be due to his relationship with Rudra, who was sometimes referred to as a bull. This may have its roots in the mythology. Earlier, the bulls were found in ancient scriptures, which have contributed to the civilisations of different countries. The universal strength of Lord Shiva can be linked with his association with Nandi bull.
+<br>
+
+</body>
+</html>

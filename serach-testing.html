@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Divine Temples of India</title>
+ <style type="text/css">
+   .labels {
+     color: blue;
+     background-color: white;
+     font-family: "Lucida Grande", "Arial", sans-serif;
+     font-size: 10px;
+     font-weight: bold;
+     text-align: center;
+     width: 60px;
+     border: 1px solid black;
+     white-space: wrap;
+   }
+    #map_canvas {
+        width: 500px;
+        height: 600px;
+      }
+	  .controls {
+        margin-top: 16px;
+        border: 1px solid transparent;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        height: 32px;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      #pac-input {
+        background-color: #fff;
+        padding: 0 11px 0 13px;
+        width: 400px;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        text-overflow: ellipsis;
+      }
+
+      #pac-input:focus {
+        border-color: #4d90fe;
+        margin-left: -1px;
+        padding-left: 14px;  /* Regular padding-left + 1. */
+        width: 401px;
+      }
+
+      .pac-container {
+        font-family: Roboto;
+      }
+
+      #type-selector {
+        color: #fff;
+        background-color: #4d90fe;
+        padding: 5px 11px 0px 11px;
+      }
+
+      #type-selector label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+      }
+}
+	  
+	  
+ </style>
+ <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?v=3&amp;sensor=false"></script>
+  <script type="text/javascript" src="markerwithlabel.js"></script>
+  <script type="text/javascript">
+  
+   function initMap() {
+    // var latLng = new google.maps.LatLng(49.47805, -123.84716);
+    // var homeLatLng = new google.maps.LatLng(49.47805, -123.84716);
+ 		var image = 'img/sight.png';
+       var map = new google.maps.Map(document.getElementById('map_canvas'), {
+       zoom: 5,
+       center: new google.maps.LatLng(21.0000, 78.0000),
+       mapTypeId: google.maps.MapTypeId.ROADMAP
+     });
+ 
+/* var temples = [['Mylapore',  13.0336, 80.2687],
+  ['Thiruvidanthai', 12.45, 80.14],
+  ['Guruvayur', 10.3500, 76.2000],
+  ['<a target="_blank" href=http://divinetraveller.net/sabarimalai.html>Sabarimala</a>', 9.4375, 77.0805],
+  ['Kumbakonam', 10.9700, 79.4200],
+  ['Varanasi',25.2820, 82.9563],['Mumbai',18.9750, 72.8258],
+  ['Naina Devi',31.306028, 76.536394]];
+  */
+ infowindow = new google.maps.InfoWindow();
+
+
+ for (var i = 0; i < temples.length; i++) {
+	
+	 var marker = new MarkerWithLabel({
+       position: new google.maps.LatLng(temples[i][1], temples[i][2]),
+       draggable: true,
+       raiseOnDrag: true,
+       map: map,
+	   icon: image,	  
+       labelContent: temples[i][0] ,	  
+       labelAnchor: new google.maps.Point(25, 0),
+       labelClass: "labels", // the CSS class for the label
+       labelStyle: {opacity: 0.75}	   
+     });
+	 
+	 google.maps.event.addListener(marker, 'click', (function(marker, i) {
+			return function() {
+				infowindow.setContent(temples[i][0]);
+				infowindow.setOptions({maxWidth: 200});
+				infowindow.open(map, marker);
+			}
+		}) (marker, i));
+	
+	 
+	  google.maps.event.addListener(marker, "click", function (e) { marker.open(map,this); });
+	
+	  
+    };
+   }
+    
+   </script>
+ 
+ 
+ </head>
+
+
+
+<script type="text/javascript" src="markerwithlabel.js"></script>
+<script type="text/javascript" src="temples.js"></script>
+ <script type="text/javascript">
+
+var valid = false; 
+//load json
+
+ 
+function validate() {
+var tn = document.myform.templename.value;
+ 
+
+//Search Function  
+for (var i=0; i <temples.length; i++) {
+if ((tn == temples[i][0]) ) {
+var latlng=(temples[i][1], temples[i][2])
+valid = true;
+break;
+}
+}
+
+if (valid) {
+	
+alert ("Search was successful    ");
+
+return false;
+}
+ 
+}
+
+</script> 
+  
+<p><strong>Divine Temples of India</strong></p>
+<form name = "myform">
+<p>Search Temple <input type="text" name="templename"> 
+<input type="button" value="Find" name="Submit" onclick= "validate()">
+
+</form>
+</head>
+
+<body onload="initMap()">
+
+ <div id="map_canvas" ></div>
+ 
+</body>
+</html>

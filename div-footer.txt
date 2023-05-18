@@ -1,0 +1,24 @@
+<table width="100%" border="1">
+  <tr>
+    <td width="236">  <script type="text/javascript"><!--
+google_ad_client = "ca-pub-2331677159054721";
+/* divinetraveller footer */
+google_ad_slot = "2237406037";
+google_ad_width = 234;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<table width="100%" border="0" bgcolor="#3300CC">
+  <tr align="right">
+    <td>&nbsp;</td>
+    <td><a style="color:#FFFFFF; font-size: x-small; font-weight: normal;"href="#" >Sitemap </a> <a style="color:#FFFFFF; font-size: x-small; font-weight: normal;" href="http://jamstechs.com"> &copy; 2011 Jamstechs  </a></td>
+  </tr>
+</table>
+    

@@ -1,0 +1,13 @@
+ <div id="smart-gallery">
+              <a href="img/hori-ban.jpg"> <img src="img/hori-ban.jpg" /></a> 
+			  
+           <a href="img/patteswaram-bann.jpg"> <img src="img/patteswaram-bann.jpg" /></a>
+			 <a href="img/belur-banner.jpg" > <img src="img/belur-banner.jpg" /> </a>
+			  <a href="img/belurstatues-banner.jpg"> <img src="img/belurstatues-banner.png" /></a> 
+			  
+           <a href="img/ganesha.png"> <img src="img/ganesha.jpg" /></a>
+			 <a href="img/kum.jpg" > <img src="img/kum.jpg" /> </a>
+			  <a href="img/kanchi.jpg" > <img src="img/kanchi.jpg" /> </a> 
+			  <a href="img/kum.jpg" ></a> 
+    </div>
+ 

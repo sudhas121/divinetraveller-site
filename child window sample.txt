@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>DHTML URLs 2</title>
+<script language="javascript">
+<!--
+   /* store the current window location */ 
+   var strURL = window.location;
+   var strFrame;
+   
+   /* function used when HREF is clicked */ 
+   function clickHref()
+   {
+      /* check if an HREF was clicked */ 
+      if (window.event.srcElement.tagName == "A")
+      {
+        /* open a new window with the URL */ 
+         window.open(strURL,"","width=400,height=400");
+      }
+   }
+
+   /* function used when HREF is hovered */ 
+   function overHref()
+   {
+      /* check if an HREF was clicked */ 
+      if (window.event.srcElement.tagName == "A")
+      {
+        /* store the HREF's URL */ 
+         strURL = window.event.srcElement.href;
+        /* store the HREF's target frame */ 
+         strFrame = window.event.srcElement.target;
+        /* set the HREF's URL to the current page */ 
+         window.event.srcElement.href = window.location;
+        /* set the HREF's URL to the same frame */ 
+         window.event.srcElement.target = "_self";
+      }
+   }
+
+   /* function used when HREF is no longer hovered */ 
+   function outHref()
+   {
+      /* check if an HREF was clicked */ 
+      if (window.event.srcElement.tagName == "A")
+      {
+        /* restore the HREF's original URL */ 
+         window.event.srcElement.href = strURL;
+        /* restore the HREF's original target frame */ 
+         window.event.srcElement.target = strFrame;
+      }
+   }
+//-->
+</script>
+</head>
+<body onClick="clickHref();" onMouseOver="overHref();" onMouseOut="outHref();">
+<ul>
+   <li><a target="_blank" href="http://www.microsoft.com">Microsoft</a></li>
+   <li><a target="_blank" href="http://msdn.microsoft.com">MSDN</a></li>
+</ul>
+</body>
+</html>

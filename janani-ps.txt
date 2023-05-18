@@ -1,0 +1,6 @@
+(get-content "C:\Projects Source\divine-traveller\httpdocs\shelltest.txt -Raw).Replace("`<SCRIPT language=JavaScript src=`"rightmenu.js`" type=text/javascript>`r`n`r`n                `r`n`r`n     `</script>","#include file =`"rightmenu.txt`
+"") | set-content "C:\Projects Source\divine-traveller\httpdocs\shelltest.txt"
+
+(get-content "C:\Projects Source\divine-traveller\httpdocs\tochange\*.html" -Raw).Replace("<SCRIPT language=JavaScript src=`"leftmenu.js`" type=text/javascript>","<!--#include file=`"leftmenu.txt`"-->") | set-content "C:\Projects Source\divine-traveller\httpdocs\tochange\*.html"
+
+C:\Projects Source\divine-traveller\httpdocs\tochange

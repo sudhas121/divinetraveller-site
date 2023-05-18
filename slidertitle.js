@@ -1,0 +1,13 @@
+document.write("<div id=\"smart-gallery\">");
+document.write("              <a href=\"img\/hori-ban.jpg\"> <img src=\"img\/hori-ban.jpg\"  \/><\/a> ");
+document.write("			  ");
+document.write("           <a href=\"img\/patteswaram-bann.jpg\"> <img src=\"img\/patteswaram-bann.jpg\" \/><\/a>");
+document.write("			 <a href=\"img\/belur-banner.jpg\" > <img src=\"img\/belur-banner.jpg\" \/> <\/a>");
+document.write("			  <a href=\"img\/belurstatues-banner.jpg\"> <img src=\"img\/belurstatues-banner.png\" \/><\/a> ");
+document.write("			  ");
+document.write("           <a href=\"img\/ganesha.png\"> <img src=\"img\/ganesha.jpg\" \/><\/a>");
+document.write("			 <a href=\"img\/kum.jpg\" > <img src=\"img\/kum.jpg\" \/> <\/a>");
+document.write("			  <a href=\"img\/kanchi.jpg\" > <img src=\"img\/kanchi.jpg\" \/> <\/a> ");
+document.write("			  <a href=\"img\/kum.jpg\" ><\/a> ");
+document.write("    <\/div>");
+document.write(" ");

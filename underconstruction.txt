@@ -1,0 +1,252 @@
+<div style="border:1px solid blue;">
+ <table  width=100% border="0" bgcolor="#0000FF"  >
+      
+		<tr>
+		<td width=100% align="centre"> &nbsp;<strong><font face="Arial" size="2" color="white"> Temples of Tamil Nadu </font></strong></td>
+       </tr> 	   
+       </table> 
+	   
+	   <ul class="nav" > 
+	   <li><a  href="#">&#45 Madurai Meenakshi </a></li>
+	   <li><a  href="#">&#45 Mannargudi </a></li>
+	   <div onClick="openClose('tn')" class="main"><span id="tick_tn">+</span> <span class="mainLink"><strong><font size="1">Click for More ...</font></strong></span></div>
+	 <div id="tn" class="links">   
+	   <li><a  href="#">&#45 Rameswaram </a></li>	  
+	   <li><a  href="thirukollikadu.html">&#45 Thirukollikadu </a></li>
+	   <li><a  href="#">&#45 Tiruvannamalai </a></li>
+	  </ul>
+	  
+      <table  width=100% border="0" bgcolor="#99CCFF"  >
+	 <tr>
+		<td width=100% align="centre"> &nbsp;<strong><font face="Arial" size="2" color="black">Sivaganga </font></strong></td>
+       </tr>
+	   </table>
+	   
+	   <ul class="nav" > 
+	   <li><a  href="kunnakudi.html">&#45 Kunnakudi </a></li>
+	   
+	   <li><a  href="Thirukoshtiyur.html">&#45 Thirukoshtiyur </a></li>
+	     
+	   <li><a  href="pillayarpatti.html">&#45 Pillayarpatti </a></li>
+	   <div onClick="openClose('sg')" class="main"><span id="tick_sg">+</span> <span class="mainLink"><strong><font size="1">Click for More ...</font></strong></span></div>
+	 <div id="sg" class="links"> 
+	   <li><a  href="vairavanpatti.html">&#45 Vairavan patti </a></li>
+	   
+	  </ul>
+	  
+      
+	   
+	   <table  width=100% border="0" bgcolor="#99CCFF"  >
+	 <tr>
+		<td width=100% align="centre"> &nbsp;<strong><font face="Arial" size="2" color="black">Kumbakonam & around </font></strong></td>
+       </tr>
+	   </table>
+	   
+
+
+ 
+<ul class="nav"  >
+      <li><a  href="#">&#45 Alangudi-Guru </a></li>
+	  
+	  <li><a  href="#">&#45 Ayyavadi-Prithiyangara </a></li>
+      
+     
+	  
+	<div onClick="openClose('kum')" class="main"><span id="tick_kum">+</span> <span class="mainLink"><strong><font size="1">Click for More ...</font></strong></span></div>
+	
+      <div id="kum" class="links">  
+	   
+	  <li><a  href="#">&#45 Chidambaram</a></li>
+	   <li><a  href="Gagraharam.html">&#45 Ganapathy Agraharam </a></li>
+	    <li><a  href="kabithalam.html">&#45 Kabisthalam </a></li>
+	  <li><a  href="#">&#45 Koothanoor-Saraswathy </a></li>
+	   <li><a  href="pboothankudi.html">&#45 Pullamboothamkudi </a></li>
+	 
+	  
+	  <li><a  href="#">&#45 Thirunageswaram-Raghu </a></li>
+	 
+	  <li><a  href="#">&#45 Mannargudi </a></li>
+	  <li><a  href="#">&#45 Nachiyarkoil </a></li>
+	   <li><a  href="nathankoil.html">&#45 Nathankoil </a></li>
+	  <li><a  href="#">&#45 Patteeswaram </a></li>
+	  <li><a  href="sarngapani.html">&#45 Sarngapani </a></li>
+	   <li><a  href="#">&#45 Suryanarkoil </a></li>
+	  
+	  
+	  <li><a  href="#">&#45 Sirkazhi </a></li>
+	  <li><a  href="#">&#45 Swamimalai </a></li>
+	  <li><a  href="thiruadanoor.html">&#45 ThiruAadhanoor </a></li>
+	  <li><a  href="#">&#45 Thirumanajeri </a></li>
+	  <li><a  href="#">&#45 Thirukadaiyur</a></li>
+	  <li><a  href="#">&#45 Thirunallaru-Saneeswaran </a></li>
+	  <li><a  href="#">&#45 Thirubhuvanam </a></li>
+	  <li><a  href="#">&#45 Thiruvidaimaruthur </a></li>
+	  <li><a  href="#">&#45 Thirunageswaram-Raghu </a></li>
+	  <li><a  href="#">&#45 Thiruvalanchuzhi</a></li>
+	  <li><a  href="velliyankudi.html">&#45 Thiruvelliyankudi</a></li>
+	  <li><a  href="#">&#45 Thirugarugavur </a></li>
+	  <li><a  href="#">&#45 Thingalur </a></li>
+	  <li><a  href="#">&#45 Thiruvayaru</a></li>
+	  <li><a  href="oppilliappan.html">&#45 Uppiliappan </a></li>
+	  <li><a  href="#">&#45 Vaitheeswarankoil </a></li>
+	  
+
+</ul>
+
+ 
+ <table  width=100% border="0" bgcolor="#99CCFF"  >
+	 <tr>
+		<td width=100% align="centre"> &nbsp;<strong><font face="Arial" size="2" color="black">Tiruchirapalli </font></strong></td>
+       </tr>
+	   </table>
+<ul class="nav" >	  
+       
+	    
+       <li><a  href="#">&#45 Srirangam </a></li>
+	  <li><a  href="#">&#45 Samayapuram</a></li>
+	  <li><a  href="#">&#45 Thiruanaikoil </a></li>
+	  <div onClick="openClose('kanch')" class="main"><span id="tick_kanch">+</span> <span class="mainLink"><strong><font size="1">Click for More ...</font></strong></span></div>
+      <div id="kanch" class="links">
+	  <li><a  href="#">&#45 Thiruanaikoil </a></li>
+	  <li><a  href="#">&#45 Uchipillayar </a></li>
+  
+ </ul>	
+  
+<table  width=100% border="0" bgcolor="#99CCFF"  >
+	 <tr>
+		<td width=100% align="centre"> &nbsp;<strong><font face="Arial" size="2" color="black">Kanchipuram</font></strong></td>
+       </tr>
+	   </table>
+ 
+<ul class="nav" >	  
+       
+	    <li><a  href="#">&#45 Ekambareswarar </a></li>
+       <li><a  href="#">&#45 Kamatchi Amman </a></li>
+	  
+	  
+	  <div onClick="openClose('kanchi')" class="main"><span id="tick_kanchi">+</span> <span class="mainLink"><strong><font size="1">Click for More ...</font></strong></span></div>
+      <div id="kanchi" class="links">
+	  <li><a  href="ashtapuja.html">&#45 Ashtapuja Perumal </a></li>
+	  <li><a  href="nilathingal.html">&#45 Nilathingal Perumal </a></li>
+	   <li><a  href="pandavathudhar.html">&#45 Pandavathoodhar perumal </a></li>
+	    <li><a  href="pavalavannar.html">&#45 Pavalavannar perumal </a></li>
+	  <li><a  href="yadodkari.html">&#45 Thiru Vekka </a></li>  
+	  <li><a  href="thirupukkuzhi.html">&#45 ThiruPutkuzhi </a></li>
+	  <li><a  href="thiruvelukkai.html">&#45 Thiru Velukkai </a></li>
+	  <li><a  href="thiruooragam.html">&#45 Ulagalandha Perumal </a></li>
+	  <li><a  href="varadaraja.html">&#45 Varadaraja Perumal </a></li>
+	  <li><a  href="thiruthanka.html">&#45 Vilakoli Perumal </a></li>
+	  <li><a  href="vaikunta.html">&#45 Vaikunda Perumal </a></li>
+	  
+  
+ </ul>
+
+ <table  width=100% border="0" bgcolor="#99CCFF"  >
+	 <tr>
+		<td width=100% align="centre"> &nbsp;<strong><font face="Arial" size="2" color="black">Chennai & around</font></strong></td>
+       </tr>
+	   </table>
+ <ul class="nav" >      
+       
+	   
+	     
+		
+	  <li><a  href="kalikambal.html">&#45 Kaligambal </a></li>
+	  
+	  <li><a  href="mylai.html">&#45 Mylai Kapaleeswarar </a></li>
+	   <div onClick="openClose('chenn')" class="main"><span id="tick_chenn">+</span> <span class="mainLink"><strong><font size="1">Click for More ...</font></strong></span></div>
+      <div id="chenn" class="links">
+	  <li><a  href="thiruvidenthai.htm">&#45 Thiruvidanthai</a></li>
+	  <li><a  href="tiruallikeni.html">&#45 Tiruallikeni Parthasarathy </a></li>
+	  <li><a  href="thiruninravoor.html">&#45 Thiruninravur </a></li>
+	  <li><a  href="#">&#45 Siruvapuri </a></li>
+</ul>
+
+<ul class="nav" >	  
+	   <table  width=100% border="0" bgcolor="#0000FF"  >
+       <tr>
+		<td width=100% align="centre"> &nbsp;<strong><font size="2" color="white">Kerala </font></strong></td>
+       </tr>
+	   
+       </table> 
+      
+      <li><a  href="guruvayur.html">&#45 Guruvayur </a></li>
+      <li><a  href="mammiyur.html">&#45 Mammiyur </a></li>
+      <li><a  href="kaladi.html">&#45 Kalady</a></li>
+      <li><a  href="meenkulathi.html">&#45 Meenkulathy Bhagavathi</a></li>
+	   <div onClick="openClose('kerala')" class="main"><span id="tick_kerala">+</span> <span class="mainLink"><strong><font size="1">Click for More ...</font></strong></span></div>
+      <div id="kerala" class="links">
+	  <li><a  href="idlisambar.html">&#45 Sabarimala</a></li>
+      <li><a  href="arachuvitasambar.html">&#45 Tiruvanathapuram&nbsp;&nbsp; Padmanabha Swamy </a></li>
+      
+       <hr />
+	  </ul>
+	  
+  <ul class="nav" >
+     <table  width=100% border="0" bgcolor="#0000FF"  >
+      
+		<tr>
+		<td width=100% align="centre"> &nbsp;<strong><font size="2" color="white">Karnataka </font></strong></td>
+       </tr>
+	   
+       </table> 
+	   <li><a  href="baghamandla.html">&#45 Baghamandala</a></li>
+     <li><a  href="#">&#45 Mookambika</a></li>
+      <li><a  href="sringeri.html"><font size="2"> &#45 Sringeri</font></a></li>
+      
+      
+	   <div onClick="openClose('karna')" class="main"><span id="tick_karna">+</span> <span class="mainLink"><strong><font size="1">Click for More ...</font></strong></span></div>
+      <div id="karna" class="links">
+      <li><a  href="talacauvery.html">&#45 Talacauvery</a></li>
+	  <li><a  href="udupi2.html">&#45 Udupi SriKrishna</a></li>
+ </ul>
+ 
+ <ul class="nav" >
+	  
+   <table  width=100% border="0" bgcolor="#0000FF"  >   
+   <tr>
+		<td width=100% align="centre"> &nbsp;<strong><font size="2" color="white">Andhra Pradesh </font></strong></td>
+       </tr>
+	   
+       </table> 
+     
+      <li><a  href="lemonrasam.html">&#45 Kalahasthi</a></li>
+      <li><a  href="jeerarasam.html">&#45 Srisailam</a></li>
+	  <li><a  href="pepperrasam.html"> &#45 Tirupathi</a></li>
+	   <div onClick="openClose('ap')" class="main"><span id="tick_ap">+</span> <span class="mainLink"><strong><font size="1">Click for More ...</font></strong></span></div>
+      <div id="ap" class="links">
+      
+  </ul>
+  
+  <ul class="nav" >      
+      
+     
+   <table  width=100% border="0" bgcolor="#0000FF"  >   
+   <tr>
+		<td width=100% align="centre"> &nbsp;<strong><font size="2" color="white">Maharashtra </font></strong></td>
+       </tr>
+	   
+       </table> 
+     
+      <li><a  href="mumbai-sidhivinayaka.html"> &#45 Mumbai-Sri Sidhi Vinayak</a></li>
+        <div onClick="openClose('maha')" class="main"><span id="tick_maha">+</span> <span class="mainLink"><strong><font size="1">Click for More ...</font></strong></span></div>
+      <div id="maha" class="links">       
+  </ul>
+  
+  <ul class="nav"  >  
+      
+	  <table  width=100% border="0" bgcolor="#0000FF"  >   
+   <tr>
+		<td width=100% align="centre"> &nbsp;<strong><font size="2" color="white">Himachal Pradesh </font></strong></td>
+       </tr>
+	   
+       </table> 
+     
+      <li><a  href="pepperrasam.html"> &#45 Nainadevi</a></li>
+	   <div onClick="openClose('hp')" class="main"><span id="tick_hp">+</span> <span class="mainLink"><strong><font size="1">Click for More ...</font></strong></span></div>
+      <div id="hp" class="links">
+             
+      
+        
+    </ul>
+	</div>
