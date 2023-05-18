@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<title>Divine Traveller</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+<link rel="stylesheet"  type="text/css" href="w3-css.css"> 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="r_div-css.css" /> -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    
+<style>
+    .w3-sidebar a {font-family: "Roboto", sans-serif;text-decoration:  none;}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+    
+ ol.a
+{
+	list-style:inside;
+	list-style-type:decimal;
+	padding:0;
+	margin: 0;
+}
+ul, dl { 
+	padding: 0;
+	margin: 0;
+	list-style:inside;
+	 
+	
+}
+</style>
+   <script language="JavaScript" type="text/javascript">
+
+    if (document.getElementById) 
+    {
+     document.writeln('<style type="text/css"> ')
+     document.writeln('.main {text-decoration:none; color:maroon; cursor:hand; cursor:pointer;margin-bottom: 1px; background-color: #ffffff;}')
+     document.writeln('span:hover.mainLink {text-decoration:underline; color:red}')
+     document.writeln('.links {display:none; padding-left:1px}')
+     document.writeln('.link {text-decoration:none; color:blue}')
+     document.writeln('a:hover.link {text-decoration: underline; color: red}')
+     document.writeln('//--></style>') }
+
+    function openClose(theID) {
+     if (document.getElementById(theID).style.display == "block") {
+         document.getElementById(theID).style.display = "none";
+         document.getElementById("tick_"+theID).innerHTML = "+"; }
+     else {
+         document.getElementById(theID).style.display = "block";
+         document.getElementById("tick_"+theID).innerHTML = "-"; } }
+
+
+     </script>  
+    
+<body class="w3-content" style="max-width:100%;background-color: #fefbd8;" > 
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:200px" id="mySidebar">
+ <div class="w3-container w3-display-container w3-padding-16 " >  
+    
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+    <h6 ><b>Divine Traveller</b></h6>
+  </div>
+<!-- side Menu -->    
+    
+   <ul   >    
+        <table  width=100% border="0" bgcolor="#99CCFF"  >  
+         <tr>  
+            <td width=100% align="centre"> &nbsp <strong><font face="Arial" size="2" color="black">Madurai</font></strong></td>  
+            </tr>  
+           </table>  
+
+           <li><a  href="alagarkoil.html"> Algarkoil </a></li>	    
+           <li><a href="madurai.html"  >Madurai Meenakshi </a></li> 
+    <div onClick="openClose('mdu')" class="main"><span id="tick_mdu">+</span> <span class="mainLink"><strong><font size="1">Click to expand/collapse..</font></strong></span></div>  
+         <div id="mdu" class="links">  
+           <li><a  href="pazhacholai.html">Pazhamudircholai </a></li>	 
+           <li><a  href="rameshwaram.html"> Rameswaram </a></li>	    
+           <li><a  href="srivilliputhur.html">Srivilliputhur </a></li>	    
+           <li><a  href="thirumokur.html"> Thiru Moghur </a></li>	    
+       <li><a  href="thiruparankunram.html"> Thirupparamkunram</a></li>  
+               
+            </ul>
+            
+        <table  width=100% border="0" bgcolor="#99CCFF"  >  
+         <tr>  
+            <td width=100% align="centre"> &nbsp <strong><font face="Arial" size="2" color="black">Tiruvarur </font></strong></td>  
+            </tr>  
+           </table>  
+
+           <ul  >   
+           <li><a  href="mannargudi.html">&#45 Mannargudi </a></li>  
+           <li><a  href="thirukollikadu.html">&#45 Thirukollikadu </a></li>  
+           <li><a  href="thirukanmangai.html">&#45 Tirukannamangai </a></li>  
+
+
+           <div onClick="openClose('tvr')" class="main"><span id="tick_tvr">+</span> <span class="mainLink"><strong><font size="1">Click to expand/collapse..</font></strong></span></div>  
+         <div id="tvr" class="links">   
+           <li><a  href="thiruvarur.html">&#45 Thyagaraja Temple,Tiruvarur</a></li>  
+           <li><a  href="sirupuliyur.html">&#45 Tirusirupuliyur</a></li>  
+           <li><a  href="vaduvur.html">&#45 Vaduvur </a></li>  
+
+               </div> 
+
+        
+                </ul> 
+  <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a> 
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a> 
+  <a href="#footer"  class="w3-bar-item w3-button w3-padding">Subscribe</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge"> <!-- w3 black is the culprit -->
+  <div class="w3-bar-item w3-padding-24 w3-wide">Divine Traveller</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:250px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <!-- Top header -->
+  <header class="w3-container w3-xlarge">
+    <p class="w3-left">Home</p>
+    <p class="w3-right">
+      
+      <i class="fa fa-search"></i>
+    </p>
+  </header>
+
+
+  <!-- Product grid -->
+ 
+      <div class="w3-container">
+        <img src="img/bannerwith%20title.JPG" style="width:100%">
+       
+      </div>
+    
+
+    <div >
+     <h2> Divine Temples of India </h2>
+         
+       <p> &nbsp; &nbsp;&nbsp; The present days' lifestyle has become very complex. People, especially the youngsters have no time even to think of God.
+    The temples in India are places that can spur  one's divine thoughts. The sanctity and divinity of these temples soothes and revitalizes his worn-out nerves with the spiritual aura.
+    There are a large number of temples in India, which have attained great following and admiration for their divinity and architectural styles.
+
+    South India is one such place that have so many temples that are not only divine but also symbols of splendor and intricate architecture.<br/>&nbsp; This website takes the readers on a journey through most of the prominent temples of South India and a few very popular must visit temples of rest of the India covering the history,the legend and devotional aspects of these temples. I have tried to provide a detailed information which will help visitors plan their mode of travel, accommodation, temple timings, contact numbers, places around the temple etc that might be useful to the visitors. I also need to mention that these are based on my own experience and readers are cautioned to use their discretion before deciding on their travel to these places.
+     <br /></p>
+         
+       
+        <div><strong>Disclaimer:</strong>The article about the temple, temple timings and the contact details were based on my own experience. These might have changed over the course of time. The travellers are requested to use use their discretion in such cases.</div>
+    <p>&nbsp;</p>
+     
+    </div>
+
+   
+  
+
+  <!-- Subscribe section -->
+ 
+  
+  <!-- Footer -->
+  <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
+    <div class="w3-row-padding">
+      <div class="w3-col s4">
+        <h4>Contact</h4>
+        <p>Questions? Go ahead.</p>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="w3-input w3-border" type="text" placeholder="Name" name="Name" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Subject" name="Subject" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Message" name="Message" required></p>
+          <button type="submit" class="w3-button w3-block w3-black">Send</button>
+        </form>
+      </div>
+
+      <div class="w3-col s4">
+        <h4>About</h4>
+        <p><a href="#">About us</a></p>
+      
+        <p><a href="#">Acknowldgements</a></p>
+      </div>
+
+     
+    </div>
+  </footer>
+
+  <div >Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="JamsTechs" target="_blank" class="w3-hover-opacity">JamsTechs</a>&nbsp;2018</div>
+
+  <!-- End page content -->
+</div>
+
+
+
+
+<script>
+// Accordion 
+function myAccFunc() {
+    var x = document.getElementById("demoAcc");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// Click on the "Jeans" link on page load to open the accordion for demo purposes
+document.getElementById("myBtn").click();
+
+
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+    
+   
+</script>
+
+</body>
+</html>
