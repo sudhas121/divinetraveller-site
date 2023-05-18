@@ -1,0 +1,42 @@
+ <!-- iMAGE -->   
+<div class="w3-container">
+<table align="center" >
+<tbody>
+<tr>
+    <td align="center" valign="middle" >
+    <a target="_blank" href="oilkaingaryam.html" >
+    <img src="img/oilkaingaryam2.jpg"   width="100%" hspace="5" vspace="5" border="0" align="middle" /></a></td></tr>
+
+
+</tbody>
+</table>      
+        
+ </div>
+<! --> 
+
+<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5ab114d2a63ccf001315b03c&product=inline-share-buttons"></script>
+
+<script>
+document.getElementById("demo").innerHTML = 
+"URL is:" + window.location.href;
+</script> 
+
+   <style>    
+        .st-custom-button[data-network] {
+   background-color: #9EEC46;
+   display: inline-block;
+   padding: 5px 10px;
+   cursor: pointer;
+   font-weight: bold;
+   color: #fff;
+   }
+}
+       </style> 
+       
+<div class="sharethis-inline-share-buttons"></div>
+
+<!-- <a href="whatsapp://send?text=http://divinetraveller.net">
+<img src="img/WhatsApp.png" width="30px" height="30px" /></a> 
+          <p id="demo"></p> -->
+          
+ 
